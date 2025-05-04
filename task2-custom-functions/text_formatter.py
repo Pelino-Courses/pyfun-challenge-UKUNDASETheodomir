@@ -10,11 +10,11 @@ def format_text(text: str, uppercase: bool = False, align: str = "left") -> str:
     formatted_text = text.upper() if uppercase else text
 
     # Apply alignment
-    if align == "center":
+    if align == "center": 
         formatted_text = formatted_text.center(30)
     elif align == "right":
         formatted_text = formatted_text.rjust(30)
-    else:  # Default "left" alignment (no need for an explicit check since "left" is default)
+    else:
         formatted_text = formatted_text.ljust(30)
     
     return formatted_text
