@@ -1,0 +1,8 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ],
+    "python.analysis.extraPaths": [
+        "./task6-advanced-oop"
+    ]
+}
